@@ -1,5 +1,5 @@
 import type * as Stitches from 'stitches-native';
-import { styled } from '../styles';
+import { styled } from '@vitality-ds/system-rn';
 import { Text } from './Text';
 
 type StyledButtonVariants = Stitches.VariantProps<typeof StyledButton>;

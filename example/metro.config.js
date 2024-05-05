@@ -13,7 +13,6 @@ const packages = mapValues(packagesRelative, (relativePath) =>
 
 function createMetroConfiguration(projectPath) {
   projectPath = path.resolve(projectPath);
-
   const defaultConfig = getDefaultConfig(projectPath);
 
   const watchFolders = [

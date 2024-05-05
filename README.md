@@ -1,3 +1,7 @@
+# CHANGES
+- For vitality, we will remove all of the "Example" code and trip it back to a barebones styling lib
+  
+
 <p align='center'>
   <img src="media/logo.jpg" alt="Stitches Native logo"/>
 <p/>

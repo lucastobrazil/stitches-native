@@ -5,9 +5,12 @@ import {
   useState,
   useCallback,
 } from 'react';
+// import { ThemeProvider } from '../styles';
+import { AVAILABLE_THEMES, ThemeProvider } from '@vitality-ds/system-rn';
 
-import { theme as lightTheme, darkTheme, ThemeProvider } from '../styles';
+const { light: lightTheme, dark: darkTheme } = AVAILABLE_THEMES;
 
+// @todo dont hardcode this, and where should themeprovider etc live?
 type ColorMode = 'light' | 'dark';
 
 type ContextValue = {
@@ -30,6 +33,7 @@ export function ColorModeProvider({ children }: { children: ReactNode }) {
     <ColorModeContext.Provider
       value={{ colorMode, setColorMode, toggleColorMode }}
     >
+      {/* <ThemeProvider theme={theme}>{children}</ThemeProvider> */}
       <ThemeProvider theme={theme}>{children}</ThemeProvider>
     </ColorModeContext.Provider>
   );

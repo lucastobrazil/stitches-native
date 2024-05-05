@@ -1,9 +1,10 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
+    "jsx": "react",
     "strict": true,
     "paths": {
-      "stitches-native": ["../src/types/index.d.ts"]
+      "stitches-native": ["../src/types/index.d.ts"],
     }
   }
 }

@@ -78,7 +78,7 @@ const { styled, css, createTheme, config, theme, useTheme, ThemeProvider } =
         // Brand colors
         primary: '$blue500',
         primaryText: '$blue900',
-        primaryMuted: '$blue100',
+        primaryMuted: '$green100',
         secondary: '$green500',
         secondaryText: '$green900',
         secondaryMuted: '$green100',

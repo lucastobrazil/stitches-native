@@ -1,4 +1,4 @@
-import { styled } from '../styles';
+import { styled } from '@vitality-ds/system-rn';
 
 export const Media = styled('Text', {
   color: '$text',
